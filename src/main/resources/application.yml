@@ -1,0 +1,13 @@
+server:
+  servlet:
+    context-path: /api/v1
+spring:
+  application:
+    name: ibm-watson-speech-to-text
+ibm:
+  watson:
+    services:
+      speech2text:
+        apikey: '<YOUR-API-KEY>'
+        url: '<WATSON-SERVICE-INSTANCE-URL>'
+        model: '<LANGUAGE-MODEL>'
